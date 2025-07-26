@@ -1,0 +1,47 @@
+# Dependency directories
+node_modules/
+**/node_modules/
+.pnp
+.pnp.js
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/server/.env
+/client/.env
+
+# Build output
+/dist
+/build
+/out
+/client/build
+/client/dist
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor & system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.vs/
+*.sublime-workspace
+
+# Testing
+coverage/
+/coverage
+
+# Lockfiles
+yarn.lock
+package-lock.json
+.yarn-integrity

@@ -9,6 +9,7 @@ const cors = require('cors');
 const authRoutes = require('./routes/auth.routes');
 const snippetRoutes = require('./routes/snippet.routes');
 
+
 const app = express();
 
 

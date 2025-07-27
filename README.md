@@ -1,4 +1,4 @@
-# ✂ CodeSnip
+#  CodeSnip
 
 **CodeSnip** is a modern, full-stack web application that helps developers securely save, tag, and manage reusable code snippets.  
 Built using the MERN stack, CodeSnip includes authentication, smart tagging, syntax highlighting, and a sleek UI for seamless snippet management.

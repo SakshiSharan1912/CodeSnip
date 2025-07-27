@@ -1,4 +1,4 @@
-# ✂️ CodeSnip
+# ✂ CodeSnip
 
 **CodeSnip** is a modern, full-stack web application that helps developers securely save, tag, and manage reusable code snippets.  
 Built using the MERN stack, CodeSnip includes authentication, smart tagging, syntax highlighting, and a sleek UI for seamless snippet management.
@@ -7,12 +7,12 @@ Built using the MERN stack, CodeSnip includes authentication, smart tagging, syn
 
 ## 🚀 Features
 
-- 🔐 **User Authentication** – Signup & login with hashed passwords and JWT tokens  
-- 📁 **Snippet Management** – Create, read, update, delete, and filter snippets  
-- 🧠 **Smart Tagging** – Auto-generated tags based on code content  
-- 🌈 **Syntax Highlighting** – Powered by Prism.js  
-- 📱 **Responsive UI** – Tailwind CSS ensures mobile and desktop usability  
-- ✨ **Modern UX** – Clean, intuitive interface with real-time feedback
+-  **User Authentication** – Signup & login with hashed passwords and JWT tokens  
+-  **Snippet Management** – Create, read, update, delete, and filter snippets  
+-  **Smart Tagging** – Auto-generated tags based on code content  
+-  **Syntax Highlighting** – Powered by Prism.js  
+-  **Responsive UI** – Tailwind CSS ensures mobile and desktop usability  
+-  **Modern UX** – Clean, intuitive interface with real-time feedback
 
 ---
 ## 📂 Table of Contents
@@ -29,7 +29,7 @@ Built using the MERN stack, CodeSnip includes authentication, smart tagging, syn
 
 ## ⚙️ Installation
 
-### ✅ Prerequisites
+###  Prerequisites
 
 - Node.js (v14 or higher)
 - MongoDB (Atlas or local)

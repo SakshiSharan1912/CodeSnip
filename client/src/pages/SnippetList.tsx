@@ -115,13 +115,19 @@ const SnippetList = () => {
         <div className="grid gap-6 md:grid-cols-2">
           {filteredSnippets.map((snippet) => (
             <SnippetCard
-              key={snippet._id}
-              title={snippet.title}
-              code={snippet.code}
-              language={snippet.language}
-              tags={snippet.tags}
-              createdAt={snippet.createdAt}
-            />
+  key={snippet._id}
+  _id={snippet._id}
+  title={snippet.title}
+  code={snippet.code}
+  language={snippet.language}
+  tags={snippet.tags}
+  createdAt={snippet.createdAt}
+  onDelete={(id) => {
+    setSnippets((prev) => prev.filter((s) => s._id !== id));
+    setFilteredSnippets((prev) => prev.filter((s) => s._id !== id));
+  }}
+/>
+
           ))}
         </div>
       )}
